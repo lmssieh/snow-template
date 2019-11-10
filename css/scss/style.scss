@@ -1,0 +1,42 @@
+@import 'helpers/variables';
+@import 'helpers/mixins';
+
+@import 'modules/utility';
+
+
+body {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+    color: $grey;
+}
+
+#main-header {
+    height: 100vh;
+    position: relative;
+    background: url('../../img/chairs-daylight-designer-empty-416320.jpg') center center/cover;
+    z-index: 2;
+    color: $grey;
+    .overlay {
+        @include overlay;
+        background-color: rgba(#000, .7);
+        z-index: -1;
+    }
+}
+
+#main-navbar {
+    display: flex;
+    align-items: center;
+    .logo {
+        margin-right: auto;
+        text-transform: uppercase;
+    }
+    ul {
+        display: flex;
+        li a {
+            text-transform: uppercase;
+            padding: 6px 14.6px;
+            letter-spacing: 2px;
+            font-weight: 500;
+        }
+    }
+}
