@@ -219,7 +219,7 @@
 "meta": {
     "app": "http://www.texturepacker.com",
     "version": "1.0",
-    "image": "C:/Users/111/Downloads/pixi-exampl/mc.png",
+    "image": "https://i.imgur.com/2boKmMb.png",
     "format": "RGBA8888",
     "size": {"w":1024,"h":2048},
     "scale": "1",
